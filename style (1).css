@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color:#a9a9a9ce ;
+}
+
+
+
+.imgtitle{
+    width: 100%;
+    height: 100%;
+    animation: fadeIn; 
+    animation-duration: 2.0s;
+}
+
+header{ 
+    width: 50%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+.containerInput{
+    width: 100%;
+    height: 20%;
+    background-color:#a9a9a9ce ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inputFilter{
+    width: 50%;
+    height: 25%;
+    border-radius: 20px;
+    font-size: 2rem;
+    border: solid greenyellow 4px;
+    outline: none;
+}
+
+input{
+    font-size: 10px;
+    padding: 25px;
+}
+
+.containerCards{
+    width: 100%;
+    height: 60%;
+    /* background: url(img/fondo5.jpg); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.divCard{
+    width: 20%;
+    height: 60%;
+    margin: 1.5%;
+    cursor: pointer;
+    background-color: #434b4d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    border-radius: 20px;
+}
+.divCard:hover{
+    border: greenyellow 4px solid;
+    box-shadow: greenyellow;
+}
+.caja{
+    width: 100%;
+    height: 3rem;
+    background:red;
+}
+.imgcard{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 20%;
+    background-color: #000;
+}
